@@ -38,4 +38,4 @@ struct PriceLevel
 
         order->next = order->prev = nullptr;
     }
-}
+};
