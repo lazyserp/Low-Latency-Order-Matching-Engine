@@ -1,0 +1,9 @@
+1. To run and test the custom memory allocator v/s 'new' allocator:
+    mkdir build && cd build
+
+    // To compile everything into engine_test.exe
+    g++ -O3 -I ../core/include ../core/main.cpp -o engine_test
+
+    // To run engine_test while in build folder
+    engine_test.exe
+
