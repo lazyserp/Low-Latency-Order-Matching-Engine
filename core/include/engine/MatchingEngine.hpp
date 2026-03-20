@@ -29,7 +29,7 @@ class MatchingEngine
         {
             auto it = oppositeSide.begin();
 
-            while ( it != oppositeSide.end() && newOrder.price > 0)
+            while (it != oppositeSide.end() && newOrder->quantity > 0)
             {
                 PriceLevel& level = it->second;
 
