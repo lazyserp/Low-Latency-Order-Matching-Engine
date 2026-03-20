@@ -8,9 +8,9 @@
 class OrderPool
 {
     private:
-    void* rawMemory;
-    Order* pool;
-    Order* freeListHead;
+    void* rawMemory = nullptr;
+    Order* pool = nullptr;
+    Order* freeListHead = nullptr;
     size_t poolSize;
     
     public:
