@@ -5,7 +5,7 @@
 struct PriceLevel
 {
     // the Orders are stored as double linked list: 1.to maintain the insertion order , 2. to delete a specific order
-    double price;
+    double price = 0.0;
     Order* head = nullptr;
     Order* tail = nullptr;
 
