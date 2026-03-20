@@ -21,11 +21,13 @@ public:
         {
             bids[order->price].price = order->price;
             bids[order->price].addOrder(order);
+            orderLookup[order->id] = order; 
         }
         else
         {
             asks[order->price].price = order->price;
             asks[order->price].addOrder(order);
+            orderLookup[order->id] = order; 
         }
     }
 
